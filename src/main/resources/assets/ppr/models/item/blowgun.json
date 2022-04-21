@@ -1,0 +1,7 @@
+{
+  "parent": "ppr:custom/zarabatana",
+  "textures": {
+    "0": "ppr:blocks/pillager_hunter",
+    "particle": "ppr:items/zarabatana"
+  }
+}

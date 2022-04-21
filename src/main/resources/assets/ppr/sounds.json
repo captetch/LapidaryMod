@@ -1,0 +1,82 @@
+{
+  "elephant_roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.elephant_roar",
+    "sounds": [
+      {
+        "name": "ppr:elephant_roar",
+        "stream": false
+      }
+    ]
+  },
+  "gorilla_roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.gorilla_roar",
+    "sounds": [
+      {
+        "name": "ppr:gorilla_roar",
+        "stream": false
+      }
+    ]
+  },
+  "lynx_roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.lynx_roar",
+    "sounds": [
+      {
+        "name": "ppr:lynx_roar",
+        "stream": false
+      }
+    ]
+  },
+  "orangutan_roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.orangutan_roar",
+    "sounds": [
+      {
+        "name": "ppr:orangutan_roar",
+        "stream": false
+      }
+    ]
+  },
+  "tiger_roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.tiger_roar",
+    "sounds": [
+      {
+        "name": "ppr:tiger_roar",
+        "stream": false
+      }
+    ]
+  },
+  "seal_roar": {
+    "category": "neutral",
+    "subtitle": "subtitles.seal_roar",
+    "sounds": [
+      {
+        "name": "ppr:seal_roar",
+        "stream": false
+      }
+    ]
+  },
+  "tasmanian_devil_hit": {
+    "category": "hostile",
+    "subtitle": "subtitles.tasmanian_devil_hit",
+    "sounds": [
+      {
+        "name": "ppr:tasmanian_devil_hit",
+        "stream": false
+      }
+    ]
+  },
+  "camel_roar": {
+    "category": "neutral",
+    "subtitle": "subtitles.camel_roar",
+    "sounds": [
+      {
+        "name": "ppr:camel_roar",
+        "stream": false
+      }
+    ]
+  }
+}

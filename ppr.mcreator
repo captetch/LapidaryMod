@@ -1,0 +1,1036 @@
+{
+  "mod_elements": [
+    {
+      "name": "IlagerHunter",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illager_hunter",
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "PoisonDart",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_dart",
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "Blowgun",
+      "type": "rangeditem",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blowgun",
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "BlowgunProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blowgun_projectile_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "IllagerHunter",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "illager_hunter",
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "DodoBird",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_bird",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "path": "~/Mobs/Illager Hunter"
+    },
+    {
+      "name": "DodoBirdLoot",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_bird_loot",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "DodoEgg",
+      "type": "rangeditem",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_egg",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "DodoBirdOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_bird_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "DodoFoods",
+      "type": "tag",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_foods",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "DodoBirdRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_bird_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "BabyDodoBird",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_dodo_bird",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "DodoEggProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_egg_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "BabyDodoBirdOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_dodo_bird_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "Sapplings",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapplings",
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "Moa",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moa",
+      "path": "~/Mobs/Moa"
+    },
+    {
+      "name": "MoaLoot",
+      "type": "loottable",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moa_loot",
+      "path": "~/Mobs/Moa"
+    },
+    {
+      "name": "BlueMacaw",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_macaw",
+      "path": "~/Mobs/Blue Macaw"
+    },
+    {
+      "name": "MacawLoot",
+      "type": "loottable",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "macaw_loot",
+      "path": "~/Mobs/Blue Macaw"
+    },
+    {
+      "name": "BlueMacawRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_macaw_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Blue Macaw"
+    },
+    {
+      "name": "BlueMacawOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_macaw_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Blue Macaw"
+    },
+    {
+      "name": "TasmanianDevil",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tasmanian_devil",
+      "path": "~/Mobs/Tasmanian Devil"
+    },
+    {
+      "name": "TasmanianDevilLoot",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tasmanian_devil_loot",
+      "path": "~/Mobs/Tasmanian Devil"
+    },
+    {
+      "name": "BactrianCamel",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bactrian_camel",
+      "path": "~/Mobs/Bactrian Camel"
+    },
+    {
+      "name": "Seeds",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Bactrian Camel"
+    },
+    {
+      "name": "CamelLoot",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "camel_loot",
+      "path": "~/Mobs/Bactrian Camel"
+    },
+    {
+      "name": "DodoEggProjectileHitsEntity",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dodo_egg_projectile_hits_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/DodoBird"
+    },
+    {
+      "name": "SumatranOrangutanOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sumatran_orangutan_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Sumatran Orangutan"
+    },
+    {
+      "name": "SumatranOrangutan",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sumatran_orangutan",
+      "path": "~/Mobs/Sumatran Orangutan"
+    },
+    {
+      "name": "SumatranLoot",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sumatran_loot",
+      "path": "~/Mobs/Sumatran Orangutan"
+    },
+    {
+      "name": "MountainGorilla",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mountain_gorilla",
+      "path": "~/Mobs/Mountain Gorilla"
+    },
+    {
+      "name": "MountainGoLoot",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mountain_go_loot",
+      "path": "~/Mobs/Mountain Gorilla"
+    },
+    {
+      "name": "MountainGorillaEntityIsHurt",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mountain_gorilla_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Mountain Gorilla"
+    },
+    {
+      "name": "IberianLynxThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iberian_lynx_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Iberian Lynx"
+    },
+    {
+      "name": "IberianLynx",
+      "type": "livingentity",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iberian_lynx",
+      "path": "~/Mobs/Iberian Lynx"
+    },
+    {
+      "name": "IberianLynxLoot",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iberian_lynx_loot",
+      "path": "~/Mobs/Iberian Lynx"
+    },
+    {
+      "name": "AsianElephant",
+      "type": "livingentity",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asian_elephant",
+      "path": "~/Mobs/Asian Elephant"
+    },
+    {
+      "name": "AsianElephantSkill",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asian_elephant_skill",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Asian Elephant"
+    },
+    {
+      "name": "AsianElephantLoot",
+      "type": "loottable",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asian_elephant_loot",
+      "path": "~/Mobs/Asian Elephant"
+    },
+    {
+      "name": "BengalTiger",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bengal_tiger",
+      "path": "~/Mobs/Bengal Tiger"
+    },
+    {
+      "name": "BengalTigerAttack",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bengal_tiger_attack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Bengal Tiger"
+    },
+    {
+      "name": "BengalTigerLoot",
+      "type": "loottable",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bengal_tiger_loot",
+      "path": "~/Mobs/Bengal Tiger"
+    },
+    {
+      "name": "HawaiinMonkSeal",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hawaiian_monk_seal",
+      "path": "~/Mobs/Hawaiian Monk Seal"
+    },
+    {
+      "name": "HawaiinMonkSealRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hawaiin_monk_seal_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Hawaiian Monk Seal"
+    },
+    {
+      "name": "HawaiianMonkSeal",
+      "type": "loottable",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hawaiian_monk_seal",
+      "path": "~/Mobs/Hawaiian Monk Seal"
+    },
+    {
+      "name": "HawaiinMonkSealOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hawaiin_monk_seal_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Hawaiian Monk Seal"
+    },
+    {
+      "name": "RedPanda",
+      "type": "livingentity",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_panda",
+      "path": "~/Mobs/Red Panda"
+    },
+    {
+      "name": "RedPandaLoot",
+      "type": "loottable",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_panda_loot",
+      "path": "~/Mobs/Red Panda"
+    },
+    {
+      "name": "Flowers",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flowers",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "RedPandaRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_panda_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs/Red Panda"
+    },
+    {
+      "name": "RedPandaOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_panda_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs/Red Panda"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "elephant_roar",
+      "files": [
+        "elephant_roar"
+      ],
+      "category": "hostile",
+      "subtitle": "elephant roar"
+    },
+    {
+      "name": "gorilla_roar",
+      "files": [
+        "gorilla_roar"
+      ],
+      "category": "hostile",
+      "subtitle": "gorilla roar"
+    },
+    {
+      "name": "lynx_roar",
+      "files": [
+        "lynx_roar"
+      ],
+      "category": "hostile",
+      "subtitle": "lynx roar"
+    },
+    {
+      "name": "orangutan_roar",
+      "files": [
+        "orangutan_roar"
+      ],
+      "category": "hostile",
+      "subtitle": "orangutan roar"
+    },
+    {
+      "name": "tiger_roar",
+      "files": [
+        "tiger_roar"
+      ],
+      "category": "hostile",
+      "subtitle": "tiger roar"
+    },
+    {
+      "name": "seal_roar",
+      "files": [
+        "seal_roar"
+      ],
+      "category": "neutral",
+      "subtitle": "seal roar"
+    },
+    {
+      "name": "tasmanian_devil_hit",
+      "files": [
+        "tasmanian_devil_hit"
+      ],
+      "category": "hostile",
+      "subtitle": "Tasmanian Devil attacked"
+    },
+    {
+      "name": "camel_roar",
+      "files": [
+        "camel_roar"
+      ],
+      "category": "neutral",
+      "subtitle": "camel roar"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.ppr.iberian_lynx_spawn_egg": "Iberian Lynx Spawn Egg",
+      "entity.ppr.baby_dodo_bird": "Baby Dodo Bird",
+      "item.ppr.bengal_tiger_spawn_egg": "Bengal Tiger Spawn Egg",
+      "item.ppr.dodo_bird_spawn_egg": "Dodo Bird Spawn Egg",
+      "item.ppr.baby_dodo_bird_spawn_egg": "Baby Dodo Bird Spawn Egg",
+      "entity.ppr.dodo_bird": "Dodo Bird",
+      "item.ppr.mountain_gorilla_spawn_egg": "Mountain Gorilla Spawn Egg",
+      "subtitles.lynx_roar": "lynx roar",
+      "subtitles.tasmanian_devil_hit": "Tasmanian Devil attacked",
+      "item.ppr.hawaiian_monk_seal_spawn_egg": "Hawaiian Monk Seal Spawn Egg",
+      "item.ppr.moa_spawn_egg": "Moa Spawn Egg",
+      "entity.ppr.tasmanian_devil": "Tasmanian Devil",
+      "item.ppr.blue_macaw_spawn_egg": "Blue Macaw Spawn Egg",
+      "entity.ppr.bactrian_camel": "Bactrian Camel",
+      "entity.ppr.iberian_lynx": "Iberian Lynx",
+      "entity.ppr.mountain_gorilla": "Mountain Gorilla",
+      "entity.ppr.sumatran_orangutan": "Sumatran Orangutan",
+      "subtitles.camel_roar": "camel roar",
+      "subtitles.elephant_roar": "elephant roar",
+      "entity.ppr.moa": "Moa",
+      "item.ppr.dodo_egg": "Dodo Egg",
+      "item.ppr.red_panda_spawn_egg": "Red Panda Spawn Egg",
+      "entity.ppr.blue_macaw": "Blue Macaw",
+      "item.ppr.blowgun": "Blowgun",
+      "item.ppr.asian_elephant_spawn_egg": "Asian Elephant Spawn Egg",
+      "entity.ppr.red_panda": "Red Panda",
+      "entity.ppr.hawaiian_monk_seal": "Hawaiian Monk Seal",
+      "subtitles.gorilla_roar": "gorilla roar",
+      "subtitles.tiger_roar": "tiger roar",
+      "subtitles.orangutan_roar": "orangutan roar",
+      "entity.ppr.asian_elephant": "Asian Elephant",
+      "entity.ppr.bengal_tiger": "Bengal Tiger",
+      "item.ppr.poison_dart": "Poison Dart",
+      "subtitles.seal_roar": "seal roar",
+      "item.ppr.bactrian_camel_spawn_egg": "Bactrian Camel Spawn Egg",
+      "item.ppr.sumatran_orangutan_spawn_egg": "Sumatran Orangutan Spawn Egg",
+      "item.ppr.tasmanian_devil_spawn_egg": "Tasmanian Devil Spawn Egg",
+      "entity.ppr.illager_hunter": "Illager Hunter",
+      "item.ppr.illager_hunter_spawn_egg": "Illager Hunter Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Illager Hunter",
+            "children": []
+          },
+          {
+            "name": "DodoBird",
+            "children": []
+          },
+          {
+            "name": "Moa",
+            "children": []
+          },
+          {
+            "name": "Blue Macaw",
+            "children": []
+          },
+          {
+            "name": "Tasmanian Devil",
+            "children": []
+          },
+          {
+            "name": "Bactrian Camel",
+            "children": []
+          },
+          {
+            "name": "Sumatran Orangutan",
+            "children": []
+          },
+          {
+            "name": "Mountain Gorilla",
+            "children": []
+          },
+          {
+            "name": "Iberian Lynx",
+            "children": []
+          },
+          {
+            "name": "Asian Elephant",
+            "children": []
+          },
+          {
+            "name": "Bengal Tiger",
+            "children": []
+          },
+          {
+            "name": "Hawaiian Monk Seal",
+            "children": []
+          },
+          {
+            "name": "Red Panda",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "ppr",
+    "modName": "Primal_preservation",
+    "version": "1.1",
+    "author": "TetchWolf MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "primal_icon",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.ppr",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200115515
+}

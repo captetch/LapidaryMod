@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cornflower",
+    "minecraft:azure_bluet",
+    "minecraft:red_tulip",
+    "minecraft:white_tulip",
+    "minecraft:rose_bush",
+    "minecraft:blue_orchid",
+    "minecraft:orange_tulip",
+    "minecraft:dandelion",
+    "minecraft:sunflower",
+    "minecraft:allium",
+    "minecraft:peony",
+    "minecraft:lilac",
+    "minecraft:wither_rose",
+    "minecraft:poppy",
+    "minecraft:pink_tulip",
+    "minecraft:oxeye_daisy"
+  ]
+}
